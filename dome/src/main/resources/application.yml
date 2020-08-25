@@ -1,0 +1,67 @@
+
+################\u8BBE\u7F6E\u670D\u52A1\u7AEF\u53E3\u53F7##############################
+server:
+  port: 8888
+###################  spring\u914D\u7F6E  ###################
+spring:
+  profiles:
+    active: dev
+  devtools:
+    restart:
+      enabled: false #\u662F\u5426\u5F00\u542F\u5F00\u53D1\u8005\u5DE5\u5177\uFF08true/false\uFF09
+      additional-paths: src/main/java
+  aop:
+    proxy-target-class: true #false\u4E3A\u542F\u7528jdk\u9ED8\u8BA4\u52A8\u6001\u4EE3\u7406,true\u4E3Acglib\u52A8\u6001\u4EE3\u7406
+---
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:mysql://120.24.25.33:3306/shoppGo?useUnicode=true&characterEncoding-utr-8&useSSL=false
+    username: sa
+    password: Dhc123456
+    driver-class-name: com.mysql.jdbc.Driver
+    #Druid\u8FDE\u63A5\u6C60\u914D\u7F6E\u76F8\u5173
+    druid:
+      # \u521D\u59CB\u5927\u5C0F\uFF0C\u6700\u5927\uFF0C\u6700\u5C0F
+      initial-size: 5
+      min-idle: 5
+      max-active: 200
+      # \u914D\u7F6E\u83B7\u53D6\u8FDE\u63A5\u7B49\u5F85\u8D85\u65F6\u7684\u65F6\u95F4
+      max-wait: 60000
+      # \u914D\u7F6E\u95F4\u9694\u591A\u4E45\u624D\u8FDB\u884C\u4E00\u6B21\u68C0\u6D4B\uFF0C\u68C0\u6D4B\u9700\u8981\u5173\u95ED\u7684\u7A7A\u95F2\u8FDE\u63A5\uFF0C\u5355\u4F4D\u662F\u6BEB\u79D2
+      time-between-eviction-runs-millis: 60000
+      # \u914D\u7F6E\u4E00\u4E2A\u8FDE\u63A5\u5728\u6C60\u4E2D\u6700\u5C0F\u751F\u5B58\u7684\u65F6\u95F4\uFF0C\u5355\u4F4D\u662F\u6BEB\u79D2
+      min-evictable-idle-time-millis: 300000
+
+## \u8BE5\u914D\u7F6E\u8282\u70B9\u4E3A\u72EC\u7ACB\u7684\u8282\u70B9\uFF0C\u6709\u5F88\u591A\u540C\u5B66\u5BB9\u6613\u5C06\u8FD9\u4E2A\u914D\u7F6E\u653E\u5728spring\u7684\u8282\u70B9\u4E0B\uFF0C\u5BFC\u81F4\u914D\u7F6E\u65E0\u6CD5\u88AB\u8BC6\u522B
+#mybatis:
+#  mapper-locations: classpath:/mapper/**/*Mapper.xml  #\u6CE8\u610F\uFF1A\u4E00\u5B9A\u8981\u5BF9\u5E94mapper\u6620\u5C04xml\u6587\u4EF6\u7684\u6240\u5728\u8DEF\u5F84
+#  type-aliases-package: com.springbootblog.entity  # \u6CE8\u610F\uFF1A\u5BF9\u5E94\u5B9E\u4F53\u7C7B\u7684\u8DEF\u5F84
+
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*Mapper.xml
+  #\u5B9E\u4F53\u626B\u63CF\uFF0C\u591A\u4E2Apackage\u7528\u9017\u53F7\u6216\u8005\u5206\u53F7\u5206\u9694
+  typeAliasesPackage: com.springbootblog.entity
+  typeEnumsPackage: com.springbootblog.entity.enums
+  global-config:
+    # \u6570\u636E\u5E93\u76F8\u5173\u914D\u7F6E
+    db-config:
+      #\u4E3B\u952E\u7C7B\u578B  AUTO:"\u6570\u636E\u5E93ID\u81EA\u589E", INPUT:"\u7528\u6237\u8F93\u5165ID",ID_WORKER:"\u5168\u5C40\u552F\u4E00ID (\u6570\u5B57\u7C7B\u578B\u552F\u4E00ID)", UUID:"\u5168\u5C40\u552F\u4E00ID UUID";
+      id-type: id_worker
+      #\u5B57\u6BB5\u7B56\u7565 IGNORED:"\u5FFD\u7565\u5224\u65AD",NOT_NULL:"\u975E NULL \u5224\u65AD"),NOT_EMPTY:"\u975E\u7A7A\u5224\u65AD"
+      field-strategy: not_empty
+      #\u9A7C\u5CF0\u4E0B\u5212\u7EBF\u8F6C\u6362
+      column-underline: true
+      #\u6570\u636E\u5E93\u5927\u5199\u4E0B\u5212\u7EBF\u8F6C\u6362
+      #capital-mode: true
+      #\u903B\u8F91\u5220\u9664\u914D\u7F6E
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+      db-type: mysql
+    #\u5237\u65B0mapper \u8C03\u8BD5\u795E\u5668
+    refresh: true
+  # \u539F\u751F\u914D\u7F6E
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
