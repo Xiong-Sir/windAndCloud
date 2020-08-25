@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>shopp-pay</module>
+        <module>shopp-api-commons</module>
+        <module>shopp-eureka-server</module>
     </modules>
 
     <!--统一管理jar包版本-->
