@@ -2,6 +2,7 @@ package com.windAndCloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @author Xiongfeng
@@ -9,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 
 @SpringBootApplication
+@EnableEurekaClient
 public class ShoppPay {
     public static void main(String[] args) {
         SpringApplication.run(ShoppPay.class,args);
