@@ -128,15 +128,14 @@ public class CodeGeneration {
 	 */
 	private static StrategyConfig getStrategyConfig() {
 		StrategyConfig strategy = new StrategyConfig();
-		strategy.setTablePrefix(new String[] { "ct_", "ct_exam_" });// 此处可以修改为您的表前缀
+		strategy.setTablePrefix(new String[] { "easybuy_" });// 此处可以修改为您的表前缀
 		strategy.setNaming(NamingStrategy.underline_to_camel);// 表名生成策略
 		strategy.setColumnNaming(NamingStrategy.underline_to_camel);// 列名生成策略
-		strategy.setInclude(new String[] { "ct_exam_task" }); // 需要生成的表名，多个用逗号分隔
+		strategy.setInclude(new String[] { "easybuy_user" }); // 需要生成的表名，多个用逗号分隔
 		strategy.setSuperServiceClass(null);
 		strategy.setSuperServiceImplClass(null);
 		strategy.setSuperMapperClass(null);
 		strategy.setRestControllerStyle(true);
-		strategy.setSuperEntityClass("com.iflytek.common.entity.BasePo");
 		strategy.setEntityLombokModel(true);// 是否使用Lombok简化代码
 		strategy.setSuperEntityColumns("is_enable", "remark", "creator", "created_date", "modifier", "last_updated_date", "update_control_id");
 		return strategy;
@@ -149,10 +148,10 @@ public class CodeGeneration {
 	private static DataSourceConfig getDataSourceConfig() {
 		DataSourceConfig dsc = new DataSourceConfig();
 		dsc.setDbType(DbType.MYSQL);
-		dsc.setDriverName("com.mysql.jdbc.Driver");
-		dsc.setUsername("");
-		dsc.setPassword("");
-		dsc.setUrl("jdbc:mysql://0000000:3306/0uuu?characterEncoding=utf-8&serverTimezone=UTC&useSSL=false");
+		dsc.setDriverName("com.mysql.cj.jdbc.Driver");
+		dsc.setUsername("root");
+		dsc.setPassword("sa123");
+		dsc.setUrl("jdbc:mysql://localhost:3306/shoppgo?characterEncoding=utf-8&serverTimezone=UTC&useSSL=false");
 
 		dsc.setTypeConvert(new MySqlTypeConvert() {
 			// 自定义数据库表字段类型转换【可选】
@@ -190,7 +189,7 @@ public class CodeGeneration {
 		gc.setEnableCache(false);// XML 二级缓存
 		gc.setBaseResultMap(true);// XML ResultMap
 		gc.setBaseColumnList(true);// XML columList
-		gc.setAuthor("zhliang");// 作者
+		gc.setAuthor("xiongfeng");// 作者
 		gc.setControllerName("%sController");// 自定义文件命名，注意 %s 会自动填充表实体属性！
 		gc.setServiceName("%sService");
 		gc.setServiceImplName("%sServiceImpl");

@@ -1,7 +1,7 @@
-################ÉèÖÃ·şÎñ¶Ë¿ÚºÅ##############################
+################ï¿½ï¿½ï¿½Ã·ï¿½ï¿½ï¿½Ë¿Úºï¿½##############################
 server:
   port: 8888
-###################  springÅäÖÃ  ###################
+###################  springï¿½ï¿½ï¿½ï¿½  ###################
 spring:
   profiles:
     active: dev
@@ -10,62 +10,62 @@ spring:
       preferred-json-mapper: fastjson
   devtools:
     restart:
-      enabled: false #ÊÇ·ñ¿ªÆô¿ª·¢Õß¹¤¾ß£¨true/false£©
+      enabled: false #ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¹ï¿½ï¿½ß£ï¿½true/falseï¿½ï¿½
       additional-paths: src/main/java
   aop:
-    proxy-target-class: true #falseÎªÆôÓÃjdkÄ¬ÈÏ¶¯Ì¬´úÀí,trueÎªcglib¶¯Ì¬´úÀí
+    proxy-target-class: true #falseÎªï¿½ï¿½ï¿½ï¿½jdkÄ¬ï¿½Ï¶ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½,trueÎªcglibï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½
 ---
 
 spring:
   profiles: dev
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource      #µ±Ç°Êı¾İÔ´²Ù×÷ÀàĞÍ
-    driver-class-name: com.mysql.jdbc.Driver    #mysqlÇı¶¯°ü
-    url: jdbc:mysql://120.24.25.33:3306/shoppGo?useUnicode=true&characterEncoding-utr-8&useSSL=false
-    username: sa
-    password: Dhc123456
-    #DruidÁ¬½Ó³ØÅäÖÃÏà¹Ø
+    type: com.alibaba.druid.pool.DruidDataSource      #ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    driver-class-name: com.mysql.cj.jdbc.Driver    #mysqlï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    url: jdbc:mysql://localhost:3306/shoppGo?useUnicode=true&characterEncoding-utr-8&useSSL=false
+    username: root
+    password: sa123
+    #Druidï¿½ï¿½ï¿½Ó³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     druid:
-      # ³õÊ¼´óĞ¡£¬×î´ó£¬×îĞ¡
+      # ï¿½ï¿½Ê¼ï¿½ï¿½Ğ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¡
       initial-size: 5
       min-idle: 5
       max-active: 200
-      # ÅäÖÃ»ñÈ¡Á¬½ÓµÈ´ı³¬Ê±µÄÊ±¼ä
+      # ï¿½ï¿½ï¿½Ã»ï¿½È¡ï¿½ï¿½ï¿½ÓµÈ´ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Ê±ï¿½ï¿½
       max-wait: 60000
-      # ÅäÖÃ¼ä¸ô¶à¾Ã²Å½øĞĞÒ»´Î¼ì²â£¬¼ì²âĞèÒª¹Ø±ÕµÄ¿ÕÏĞÁ¬½Ó£¬µ¥Î»ÊÇºÁÃë
+      # ï¿½ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½Ã²Å½ï¿½ï¿½ï¿½Ò»ï¿½Î¼ï¿½â£¬ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½Ø±ÕµÄ¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó£ï¿½ï¿½ï¿½Î»ï¿½Çºï¿½ï¿½ï¿½
       time-between-eviction-runs-millis: 60000
-      # ÅäÖÃÒ»¸öÁ¬½ÓÔÚ³ØÖĞ×îĞ¡Éú´æµÄÊ±¼ä£¬µ¥Î»ÊÇºÁÃë
+      # ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú³ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¡ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ä£¬ï¿½ï¿½Î»ï¿½Çºï¿½ï¿½ï¿½
       min-evictable-idle-time-millis: 300000
 
-## ¸ÃÅäÖÃ½ÚµãÎª¶ÀÁ¢µÄ½Úµã£¬ÓĞºÜ¶àÍ¬Ñ§ÈİÒ×½«Õâ¸öÅäÖÃ·ÅÔÚspringµÄ½ÚµãÏÂ£¬µ¼ÖÂÅäÖÃÎŞ·¨±»Ê¶±ğ
+## ï¿½ï¿½ï¿½ï¿½ï¿½Ã½Úµï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½Ä½Úµã£¬ï¿½ĞºÜ¶ï¿½Í¬Ñ§ï¿½ï¿½ï¿½×½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã·ï¿½ï¿½ï¿½springï¿½Ä½Úµï¿½ï¿½Â£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ş·ï¿½ï¿½ï¿½Ê¶ï¿½ï¿½
 #mybatis:
-#  mapper-locations: classpath:/mapper/**/*Mapper.xml  #×¢Òâ£ºÒ»¶¨Òª¶ÔÓ¦mapperÓ³ÉäxmlÎÄ¼şµÄËùÔÚÂ·¾¶
-#  type-aliases-package: com.springbootblog.entity  # ×¢Òâ£º¶ÔÓ¦ÊµÌåÀàµÄÂ·¾¶
+#  mapper-locations: classpath:/mapper/**/*Mapper.xml  #×¢ï¿½â£ºÒ»ï¿½ï¿½Òªï¿½ï¿½Ó¦mapperÓ³ï¿½ï¿½xmlï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½
+#  type-aliases-package: com.springbootblog.entity  # ×¢ï¿½â£ºï¿½ï¿½Ó¦Êµï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½
 
 #mybatis
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*Mapper.xml
-  #ÊµÌåÉ¨Ãè£¬¶à¸öpackageÓÃ¶ººÅ»òÕß·ÖºÅ·Ö¸ô
+  #Êµï¿½ï¿½É¨ï¿½è£¬ï¿½ï¿½ï¿½packageï¿½Ã¶ï¿½ï¿½Å»ï¿½ï¿½ß·ÖºÅ·Ö¸ï¿½
   typeAliasesPackage: com.springbootblog.entity
   typeEnumsPackage: com.springbootblog.entity.enums
   global-config:
-    # Êı¾İ¿âÏà¹ØÅäÖÃ
+    # ï¿½ï¿½ï¿½İ¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     db-config:
-      #Ö÷¼üÀàĞÍ  AUTO:"Êı¾İ¿âID×ÔÔö", INPUT:"ÓÃ»§ÊäÈëID",ID_WORKER:"È«¾ÖÎ¨Ò»ID (Êı×ÖÀàĞÍÎ¨Ò»ID)", UUID:"È«¾ÖÎ¨Ò»ID UUID";
+      #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  AUTO:"ï¿½ï¿½ï¿½İ¿ï¿½IDï¿½ï¿½ï¿½ï¿½", INPUT:"ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ID",ID_WORKER:"È«ï¿½ï¿½Î¨Ò»ID (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¨Ò»ID)", UUID:"È«ï¿½ï¿½Î¨Ò»ID UUID";
       id-type: id_worker
-      #×Ö¶Î²ßÂÔ IGNORED:"ºöÂÔÅĞ¶Ï",NOT_NULL:"·Ç NULL ÅĞ¶Ï"),NOT_EMPTY:"·Ç¿ÕÅĞ¶Ï"
+      #ï¿½Ö¶Î²ï¿½ï¿½ï¿½ IGNORED:"ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¶ï¿½",NOT_NULL:"ï¿½ï¿½ NULL ï¿½Ğ¶ï¿½"),NOT_EMPTY:"ï¿½Ç¿ï¿½ï¿½Ğ¶ï¿½"
       field-strategy: not_empty
-      #ÍÕ·åÏÂ»®Ïß×ª»»
+      #ï¿½Õ·ï¿½ï¿½Â»ï¿½ï¿½ï¿½×ªï¿½ï¿½
       column-underline: true
-      #Êı¾İ¿â´óĞ´ÏÂ»®Ïß×ª»»
+      #ï¿½ï¿½ï¿½İ¿ï¿½ï¿½Ğ´ï¿½Â»ï¿½ï¿½ï¿½×ªï¿½ï¿½
       #capital-mode: true
-      #Âß¼­É¾³ıÅäÖÃ
+      #ï¿½ß¼ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
       logic-delete-value: 0
       logic-not-delete-value: 1
       db-type: mysql
-    #Ë¢ĞÂmapper µ÷ÊÔÉñÆ÷
+    #Ë¢ï¿½ï¿½mapper ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     refresh: true
-  # Ô­ÉúÅäÖÃ
+  # Ô­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
   configuration:
     map-underscore-to-camel-case: true
     cache-enabled: false

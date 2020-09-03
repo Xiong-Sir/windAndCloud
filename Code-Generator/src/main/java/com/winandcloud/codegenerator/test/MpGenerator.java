@@ -23,11 +23,11 @@ public class MpGenerator {
     public void generateCode() {
         String packageName = "com.winAndCloud";
         boolean serviceNameStartWithI = false;//user -> UserService, 设置成true: user -> IUserService
-        generateByTables(serviceNameStartWithI, packageName, "shopp_membershipcard");
+        generateByTables(serviceNameStartWithI, packageName, "shopp_user");
     }
     private void generateByTables(boolean serviceNameStartWithI, String packageName, String... tableNames) {
         GlobalConfig config = new GlobalConfig();
-        String dbUrl = "jdbc:mysql://120.24.25.33:3306/shoppGo?useUnicode=true&characterEncoding-utr-8&useSSL=false";
+        String dbUrl = "jdbc:mysql://localhost:3306/shoppgo?characterEncoding=utf-8&serverTimezone=UTC&useUnicode=true&useSSL=false";
         DataSourceConfig dataSourceConfig = new DataSourceConfig();
 
         dataSourceConfig.setTypeConvert(new MySqlTypeConvert(){
@@ -44,9 +44,9 @@ public class MpGenerator {
         });
         dataSourceConfig.setDbType(DbType.MYSQL)
                 .setUrl(dbUrl)
-                .setUsername("sa")
-                .setPassword("Dhc123456")
-                .setDriverName("com.mysql.jdbc.Driver");
+                .setUsername("root")
+                .setPassword("sa123")
+                .setDriverName("com.mysql.cj.jdbc.Driver");
         StrategyConfig strategyConfig = new StrategyConfig();
         strategyConfig
                 .setCapitalMode(true)

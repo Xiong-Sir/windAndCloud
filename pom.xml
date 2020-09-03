@@ -12,6 +12,7 @@
         <module>shopp-pay</module>
         <module>shopp-eureka-server</module>
         <module>shopp-commons</module>
+        <module>shopp-user</module>
     </modules>
 
     <!--统一管理jar包版本-->
