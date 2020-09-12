@@ -23,7 +23,7 @@ public class Result<T> implements Serializable {
 
     private static final ObjectMapper MAPPER = new ObjectMapper();
     /**返回的状态值 0 成功 , 2失败*/
-    private Integer status = -1;
+    private Integer code = -1;
 
     /**返回的信息*/
     private String msg;
@@ -69,11 +69,11 @@ public class Result<T> implements Serializable {
 
     /**
      * 错误的构造方法
-     * @param status
+     * @param code
      * @param msg
      */
-    public Result(Integer status, String msg) {
-        this.status = status;
+    public Result(Integer code, String msg) {
+        this.code = code;
         this.msg = msg;
         this.success = false;
 
@@ -94,7 +94,7 @@ public class Result<T> implements Serializable {
      * @param result
      */
     public Result(T result) {
-        this.status = 0;
+        this.code = 0;
         this.msg = "ok";
         this.result = result;
         this.success = true;
@@ -108,7 +108,7 @@ public class Result<T> implements Serializable {
      * @param data
      */
     public Result(Integer status, String msg, T data) {
-        this.status = status;
+        this.code = status;
         this.msg = msg;
         this.result =  data;
         if (status == 200) {

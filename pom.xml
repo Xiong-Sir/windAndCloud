@@ -13,6 +13,7 @@
         <module>shopp-eureka-server</module>
         <module>shopp-commons</module>
         <module>shopp-user</module>
+        <module>shopp-auth</module>
     </modules>
 
     <!--统一管理jar包版本-->
@@ -91,6 +92,25 @@
                 <artifactId>log4j</artifactId>
                 <version>${log4j.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-annotation</artifactId>
+                <version>3.1.2</version>
+                <scope>compile</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-core</artifactId>
+                <version>3.1.2</version>
+                <scope>compile</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-extension</artifactId>
+                <version>3.1.2</version>
+                <scope>compile</scope>
+            </dependency>
+
         </dependencies>
 
     </dependencyManagement>
