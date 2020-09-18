@@ -15,15 +15,15 @@ import org.springframework.security.core.userdetails.UserDetailsService;
  */
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
-    @Bean
-    UserDetailsService customUserService(){ //注册UserDetailsService 的bean
-        return new CustomUserService();
-    }
-    @Override
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(customUserService()); //user Details Service验证
-
-    }
+//    @Bean
+//    UserDetailsService customUserService(){ //注册UserDetailsService 的bean
+//        return new CustomUserService();
+//    }
+//    @Override
+//    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+//        auth.userDetailsService(customUserService()); //user Details Service验证
+//
+//    }
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()

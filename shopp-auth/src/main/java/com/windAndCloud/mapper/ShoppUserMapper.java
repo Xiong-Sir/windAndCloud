@@ -2,6 +2,8 @@ package com.windAndCloud.mapper;
 
 import com.windAndCloud.entity.ShoppUser;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Repository;
 
 /**
  * <p>
@@ -11,6 +13,8 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author 代号：9527
  * @since 2020-09-07
  */
+@Repository
+@Mapper
 public interface ShoppUserMapper extends BaseMapper<ShoppUser> {
 
 }
