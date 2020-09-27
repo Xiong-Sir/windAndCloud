@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85cc850f-5270-4c9f-bfa3-8b761f4c33d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/shopp-auth/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shopp-auth/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopp-auth/target/classes/com/windAndCloud/entity/KnowledgePoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/shopp-auth/target/classes/com/windAndCloud/entity/KnowledgePoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopp-auth/target/classes/com/windAndCloud/service/impl/KnowledgePointServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shopp-auth/target/classes/com/windAndCloud/service/impl/KnowledgePointServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/开发规范.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +37,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1hg5i1ClxQqvDubPjOhvZWKTEQE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -166,6 +165,7 @@
       <workItem from="1600935852983" duration="650000" />
       <workItem from="1600995671918" duration="802000" />
       <workItem from="1601178706318" duration="963000" />
+      <workItem from="1601189377525" duration="1008000" />
     </task>
     <task id="LOCAL-00001" summary="[!]变更">
       <created>1601178854550</created>
