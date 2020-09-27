@@ -14,6 +14,7 @@
         <module>shopp-commons</module>
         <module>shopp-user</module>
         <module>shopp-auth</module>
+        <module>go</module>
     </modules>
 
     <!--统一管理jar包版本-->
