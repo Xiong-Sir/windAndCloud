@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85cc850f-5270-4c9f-bfa3-8b761f4c33d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/shopp-auth/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shopp-auth/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopp-auth/target/classes/com/windAndCloud/entity/KnowledgePoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/shopp-auth/target/classes/com/windAndCloud/entity/KnowledgePoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopp-auth/target/classes/com/windAndCloud/service/impl/KnowledgePointServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shopp-auth/target/classes/com/windAndCloud/service/impl/KnowledgePointServiceImpl.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\mvnrep" />
+        <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\setting.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hg5i1ClxQqvDubPjOhvZWKTEQE" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShoppAuth">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.windAndCloud.Test" />
+      <module name="go" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.windAndCloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MpGenerator.generateCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codegenerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.winandcloud.codegenerator.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.winandcloud.codegenerator.test" />
+      <option name="MAIN_CLASS_NAME" value="com.winandcloud.codegenerator.test.MpGenerator" />
+      <option name="METHOD_NAME" value="generateCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppAuth" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shopp-auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.windAndCloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.windAndCloud.ShoppAuth" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppPay" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shopp-pay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.windAndCloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.windAndCloud.ShoppPay" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppUser" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shopp-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.windAndCloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.windAndCloud.ShoppUser" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ShoppAuth" />
+        <item itemvalue="Spring Boot.ShoppUser" />
+        <item itemvalue="Spring Boot.ShoppPay" />
+        <item itemvalue="JUnit.MpGenerator.generateCode" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85cc850f-5270-4c9f-bfa3-8b761f4c33d7" name="Default Changelist" comment="" />
+      <created>1600420017419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600420017419</updated>
+      <workItem from="1600420020526" duration="1688000" />
+      <workItem from="1600485416458" duration="3486000" />
+      <workItem from="1600649467931" duration="4768000" />
+      <workItem from="1600845501503" duration="1259000" />
+      <workItem from="1600847681698" duration="12000" />
+      <workItem from="1600847888178" duration="73000" />
+      <workItem from="1600848008803" duration="208000" />
+      <workItem from="1600849595683" duration="1516000" />
+      <workItem from="1600935852983" duration="650000" />
+      <workItem from="1600995671918" duration="802000" />
+      <workItem from="1601178706318" duration="963000" />
+    </task>
+    <task id="LOCAL-00001" summary="[!]变更">
+      <created>1601178854550</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601178854550</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[!]变更" />
+    <option name="LAST_COMMIT_MESSAGE" value="[!]变更" />
+  </component>
+</project>

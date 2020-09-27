@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/go/go.iml" filepath="$PROJECT_DIR$/go/go.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopp-auth/shopp-auth.iml" filepath="$PROJECT_DIR$/shopp-auth/shopp-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopp-commons/shopp-commons.iml" filepath="$PROJECT_DIR$/shopp-commons/shopp-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopp-eureka-server/shopp-eureka-server.iml" filepath="$PROJECT_DIR$/shopp-eureka-server/shopp-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopp-pay/shopp-pay.iml" filepath="$PROJECT_DIR$/shopp-pay/shopp-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopp-user/shopp-user.iml" filepath="$PROJECT_DIR$/shopp-user/shopp-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shoppGo.iml" filepath="$PROJECT_DIR$/shoppGo.iml" />
+    </modules>
+  </component>
+</project>
