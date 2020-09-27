@@ -1,5 +1,5 @@
 server:
-  port: 8002
+  port: 8001
 
 spring:
   application:
@@ -10,6 +10,8 @@ spring:
     url: jdbc:mysql://localhost:3306/shoppgo?characterEncoding=utf-8&serverTimezone=UTC&useSSL=false
     username: root
     password: sa123
+  resources:
+    static-locations: file:f:/
 #eureka:
 #  client:
 #    #表示是否将自己注册进EurekaServer默认为true
