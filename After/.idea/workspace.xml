@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85cc850f-5270-4c9f-bfa3-8b761f4c33d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../web/开发规范.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/pages/index/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web/pages/index/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/../web/pages/index/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web/project.config.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +56,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -91,6 +96,13 @@
       <option name="MAIN_CLASS_NAME" value="com.winandcloud.codegenerator.test.MpGenerator" />
       <option name="METHOD_NAME" value="generateCode" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodegeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="codegenerator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.winandcloud.codegenerator.CodegeneratorApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,7 +177,8 @@
       <workItem from="1600935852983" duration="650000" />
       <workItem from="1600995671918" duration="802000" />
       <workItem from="1601178706318" duration="963000" />
-      <workItem from="1601189377525" duration="1008000" />
+      <workItem from="1601189377525" duration="1136000" />
+      <workItem from="1601193579061" duration="1064000" />
     </task>
     <task id="LOCAL-00001" summary="[!]变更">
       <created>1601178854550</created>

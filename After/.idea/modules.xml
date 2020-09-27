@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Code-Generator/codegenerator.iml" filepath="$PROJECT_DIR$/Code-Generator/codegenerator.iml" />
       <module fileurl="file://$PROJECT_DIR$/go/go.iml" filepath="$PROJECT_DIR$/go/go.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopp-auth/shopp-auth.iml" filepath="$PROJECT_DIR$/shopp-auth/shopp-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopp-commons/shopp-commons.iml" filepath="$PROJECT_DIR$/shopp-commons/shopp-commons.iml" />
