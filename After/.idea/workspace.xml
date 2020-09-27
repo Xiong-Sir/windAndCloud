@@ -22,10 +22,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="MavenImportPreferences">
@@ -136,9 +137,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ShoppAuth" />
         <item itemvalue="Spring Boot.ShoppUser" />
         <item itemvalue="Spring Boot.ShoppPay" />
+        <item itemvalue="Spring Boot.ShoppAuth" />
         <item itemvalue="JUnit.MpGenerator.generateCode" />
         <item itemvalue="Application.Test" />
       </list>
