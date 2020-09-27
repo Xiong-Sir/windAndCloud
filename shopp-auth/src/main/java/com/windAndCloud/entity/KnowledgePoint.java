@@ -1,7 +1,5 @@
 package com.windAndCloud.entity;
 
-import com.baomidou.mybatisplus.annotation.TableField;
-
 import java.util.Date;
 import java.time.LocalDateTime;
 import java.io.Serializable;
@@ -21,8 +19,6 @@ public class KnowledgePoint implements Serializable {
     /**
      * 知识点id
      */
-
-    @TableField("knowledgePointId")
     private String knowledgePointId;
 
     /**
