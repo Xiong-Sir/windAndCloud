@@ -1,0 +1,16 @@
+
+T	java:S106K"9Replace this use of System.out or System.err by a logger.(ñÆ˜T8Şé„Õ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8Şé„Õ.
+E
+java:S11488"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8…ø„Õ.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(‚š‰18Şé„Õ.
+m	java:S128+"LEnd this switch case with an unconditional break, return or throw statement.(€ãÔÌúÿÿÿÿ8Şé„Õ.
+Z	java:S106V"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8Şé„Õ.
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(ıíºİşÿÿÿÿ8Şé„Õ.
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8Şé„Õ.
+E
+java:S1148N"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Şé„Õ.
+Z
+java:S1117E"8Rename "user" which hides the field declared at line 14.(çñ§»øÿÿÿÿ8Şé„Õ.
+W
+java:S1161":Add the "@Override" annotation above this method signature(“–ış8úÎ„Õ.

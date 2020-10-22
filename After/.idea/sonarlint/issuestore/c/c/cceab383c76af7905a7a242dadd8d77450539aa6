@@ -1,0 +1,15 @@
+
+W
+java:S1161":Add the "@Override" annotation above this method signature(“–ış8¡Œ–„Õ.
+[
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(¼°âÑúÿÿÿÿ8”­–„Õ.
+W
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8¡Œ–„Õ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ü¯£şÿÿÿÿ8¡Œ–„Õ.
+E
+java:S1148'"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¡Œ–„Õ.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(‚š‰18¡Œ–„Õ.
+h
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(“ëôç8¡Œ–„Õ.
+E
+java:S1148*"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8Öß–„Õ.
