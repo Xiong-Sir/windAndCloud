@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/shopp-pay/shopp-pay.iml" filepath="$PROJECT_DIR$/shopp-pay/shopp-pay.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopp-user/shopp-user.iml" filepath="$PROJECT_DIR$/shopp-user/shopp-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/shoppGo.iml" filepath="$PROJECT_DIR$/shoppGo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socket/socket.iml" filepath="$PROJECT_DIR$/socket/socket.iml" />
     </modules>
   </component>
 </project>

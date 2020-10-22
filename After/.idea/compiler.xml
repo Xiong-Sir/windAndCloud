@@ -6,29 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="shopp-user" />
+        <module name="socket" />
+        <module name="codegenerator" />
         <module name="shopp-commons" />
         <module name="shopp-auth" />
         <module name="go" />
-        <module name="codegenerator" />
+        <module name="shopp-user" />
         <module name="shopp-eureka-server" />
         <module name="shopp-pay" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="codegenerator" target="1.8" />
-      <module name="go" target="1.8" />
-      <module name="shopp-auth" target="1.8" />
-      <module name="shopp-commons" target="1.8" />
-      <module name="shopp-eureka-server" target="1.8" />
-      <module name="shopp-pay" target="1.8" />
-      <module name="shopp-user" target="1.8" />
-      <module name="shoppGo" target="1.8" />
+      <module name="codegenerator" target="1.5" />
+      <module name="go" target="12" />
+      <module name="shopp-auth" target="12" />
+      <module name="shopp-commons" target="12" />
+      <module name="shopp-eureka-server" target="12" />
+      <module name="shopp-pay" target="12" />
+      <module name="shopp-user" target="12" />
+      <module name="shoppGo" target="12" />
+      <module name="socket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="codegenerator" options="-parameters" />
+      <module name="socket" options="-parameters" />
     </option>
   </component>
 </project>

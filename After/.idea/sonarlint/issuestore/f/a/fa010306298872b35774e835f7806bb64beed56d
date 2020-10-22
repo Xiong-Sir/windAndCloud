@@ -1,0 +1,15 @@
+
+T	java:S106!"9Replace this use of System.out or System.err by a logger.(èñÅ78«£é‚Õ.
+E
+java:S1148?"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8…Òé‚Õ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÃàÌ´8«£é‚Õ.
+t	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¤èÄ78«£é‚Õ.
+\
+java:S1161":Add the "@Override" annotation above this method signature(ÿŸ¾Ğüÿÿÿÿ8«£é‚Õ.
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(Í¿ûÿÿÿÿ8«£é‚Õ.
+]	java:S125"<This block of commented-out lines of code should be removed.(£‰è‘üÿÿÿÿ8ŒÊ ƒÕ.
+‚
+java:S1217<"`Call the method Thread.start() to execute the content of the run() method in a dedicated thread.(çÏúÿÿÿÿÿ8«£é‚Õ.
+E
+java:S11481"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8…Òé‚Õ.
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ë÷â±üÿÿÿÿ8«£é‚Õ.

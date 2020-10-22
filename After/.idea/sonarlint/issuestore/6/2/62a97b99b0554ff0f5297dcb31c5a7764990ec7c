@@ -1,0 +1,8 @@
+
+E
+java:S1148#"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8»ºƒÕ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ê¹àûúÿÿÿÿ8»ºƒÕ.
+f
+java:S2095"DUse try-with-resources or close this "Socket" in a "finally" clause.(î“¾úÿÿÿÿ8ÄÊç‚Õ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÃÁ÷8¥Õæ‚Õ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ƒİ8¥Õæ‚Õ.
