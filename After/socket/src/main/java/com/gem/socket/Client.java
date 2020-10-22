@@ -14,7 +14,7 @@ public class Client {
         int port = Integer.parseInt("999");
         try
         {
-            System.out.println("连接到主机：" + serverName + " ，端口号111111：" + port);
+            System.out.println("连接到主机：" + serverName + " ，端口号1111122221：" + port);
             Socket client = new Socket(serverName, port);
 
             //输出服务器信息
