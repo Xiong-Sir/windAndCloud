@@ -34,7 +34,7 @@ public class SocketUser {
         return socket;
     }
 
-    public void setSocket(Socket socket) {
+    public void setSocket(final Socket socket) {
         this.socket = socket;
     }
 
@@ -57,19 +57,16 @@ public class SocketUser {
     public SocketUser(String name, final Socket socket) throws IOException {
         this.name = name;
         this.socket = socket;
-        //读取客户端传输的 输入流
-        this.br = new BufferedReader(new InputStreamReader(socket.getInputStream(),"UTF-8"));
-        //转发给客户端的 输出流
-        this.pw = new PrintWriter(new OutputStreamWriter(socket.getOutputStream(),"UTF-8"),true);
+        this.br = new BufferedReader(new InputStreamReader(
+                socket.getInputStream()));
+        this.pw = new PrintWriter(socket.getOutputStream());
     }
 
     @Override
     public String toString() {
-        return "SocketUser{" +
-                "name='" + name + '\'' +
-                ", account='" + account + '\'' +
-                ", socket=" + socket +
-                '}';
+        return "User [name=" + name + ", account=" + account + ", socket="
+                + socket + "]";
     }
+
 
 }

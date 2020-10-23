@@ -1,4 +1,4 @@
-package com.gem.socket;
+package com.gem.socket.thread;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
