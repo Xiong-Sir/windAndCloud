@@ -1,14 +1,0 @@
-
-D
-java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8‡•š„Õ.
-Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8‡•š„Õ.
-Z	java:S106!"9Replace this use of System.out or System.err by a logger.(×ªİÎıÿÿÿÿ8‡•š„Õ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(‚Ú§8‡•š„Õ.
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íŒÊ­ıÿÿÿÿ8‡•š„Õ.
-}
-java:S1450"[Remove the "serverSocket" field and declare it as a local variable in the relevant methods.(“—Ó¿ıÿÿÿÿ8‡•š„Õ.
-v
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÓøŒ¡8‡•š„Õ.
-T	java:S106$"9Replace this use of System.out or System.err by a logger.(²–¨98‡•š„Õ.
-@
-java:S1148("#Use a logger to log this exception.(òçøì8‡•š„Õ.
